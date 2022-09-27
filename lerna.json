@@ -1,4 +1,12 @@
 {
-  "packages": ["brainstorm", "react-demo", "react-starter-template", "multi-framework-diceroller"],
+  "packages": [
+    "brainstorm", 
+    "collaborative-text-area",
+    "multi-framework-diceroller",
+    "node-demo",
+    "react-demo", 
+    "react-starter-template", 
+    "teams-fluid-hello-world"
+  ],
   "version": "0.0.0"
 }
