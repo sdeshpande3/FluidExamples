@@ -17,7 +17,8 @@
     "start:server": "npx @fluidframework/azure-local-service@latest",
     "start:azure": "cross-env REACT_APP_FLUID_CLIENT='\"azure\"' npm run start",
     "test": "react-scripts test",
-    "test:report": "echo No test for this example"
+    "test:report": "echo No test for this example",
+    "lint": "echo No lint for this example"
   },
   "eslintConfig": {
     "extends": [

@@ -9,7 +9,7 @@
     "manifest": "gulp manifest",
     "start": "node dist/server.js",
     "test": "react-scripts test",
-    "test:report": "echo No test for this example"
+    "test:report": "echo No test for this example",
   },
   "dependencies": {
     "@fluentui/react-northstar": "~0.58.0",

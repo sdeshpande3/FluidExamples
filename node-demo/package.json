@@ -8,7 +8,8 @@
     "start:client": "node ./src/index.js",
     "start:server": "npx tinylicious@latest",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:report": "echo No test for this example"
+    "test:report": "echo No test for this example",
+    "lint": "echo No lint for this example"
   },
   "license": "MIT",
   "dependencies": {

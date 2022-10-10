@@ -10,7 +10,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:report": "echo No test for this example",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "echo No lint for this example"
   },
   "dependencies": {
     "@fluentui/react": "^8.17.1",
