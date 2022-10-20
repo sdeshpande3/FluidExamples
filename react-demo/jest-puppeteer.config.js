@@ -4,10 +4,10 @@
  */
 
 module.exports = {
-    server: {
-        command: `npm run start`,
-        launchTimeout: 10000,
-    },
+    // server: {
+    //     command: `npm run start`,
+    //     launchTimeout: 10000,
+    // },
     launch: {
         slowMo: 30, // slows down process for easier viewing
         headless: true, // run in the browser
