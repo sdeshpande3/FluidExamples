@@ -3,5 +3,8 @@
  * Licensed under the MIT License.
  */
 
-export * from "./types";
-export * from "./model";
+describe("react-starter-template", () => {
+    it("setup", () => {
+        console.log("working");
+    });
+});

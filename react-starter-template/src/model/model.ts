@@ -1,3 +1,8 @@
+/*!
+ * Copyright (c) Microsoft Corporation and contributors. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
 import { ISharedMap, IFluidContainer, IValueChanged } from "fluid-framework";
 import { EventEmitter } from "events";
 import {

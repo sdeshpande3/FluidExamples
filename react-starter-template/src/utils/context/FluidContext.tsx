@@ -1,3 +1,8 @@
+/*!
+ * Copyright (c) Microsoft Corporation and contributors. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
 import React, { useState, useEffect } from "react";
 import { ModelContext } from "./context";
 import { FluidModel } from "../../model";

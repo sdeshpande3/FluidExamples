@@ -15,7 +15,9 @@
     "lint": "npm run prettier",
     "lint:fix": "npm run prettier:fix",
     "prettier": "prettier --check . --ignore-path ./.prettierignore",
-    "prettier:fix": "prettier --write . --ignore-path ./.prettierignore"
+    "prettier:fix": "prettier --write . --ignore-path ./.prettierignore",
+    "start:server": "npx tinylicious@latest",
+    "test:jest": "start-server-and-test start:server 7070 jest"
   },
   "dependencies": {
     "@fluentui/react": "^8.17.1",
@@ -43,7 +45,11 @@
   "devDependencies": {
     "@fluidframework/build-common": "^1.0.0",
     "@types/react-router-dom": "^5.1.7",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "start-server-and-test": "^1.11.6",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.20.0"
   },
   "eslintConfig": {
     "extends": [

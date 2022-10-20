@@ -1,3 +1,8 @@
+/*!
+ * Copyright (c) Microsoft Corporation and contributors. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
 import { SharedMap, ISharedMap, IFluidContainer, ContainerSchema } from "fluid-framework";
 import { TinyliciousClientProps } from "@fluidframework/tinylicious-client";
 
