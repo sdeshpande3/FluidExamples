@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm build",
     "start:client": "node ./src/index.js",
-    "start:server": "npx tinylicious@latest",
+    "start:server": "npx @fluidframework/azure-local-service@latest@latest",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:report": "echo No test for this example",
     "format": "npm run prettier:fix",
