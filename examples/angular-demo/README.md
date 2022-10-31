@@ -1,60 +1,27 @@
-# @fluidframework/angular-demo
+# AngularDemo
 
-## About this repo
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
 
-This repo is a Fluid starter template that was created to answer the question "how do I create a Fluid app that is more complex than Hello World?" To answer this question this repo makes the following assumptions:
+## Development server
 
-1. You want to use Angular for your view
-2. You want to keep clear separation between your model and view
-3. You want a light state management framework to remove the boilerplate needed to store, access and modify Angular app state
-4. You already have Node installed on your local machine. If not, follow the instructions [here](https://nodejs.org/en/download/).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Overview
+## Code scaffolding
 
-In this readme we'll walk you through the following topics:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Using this repo locally
+## Build
 
--   Run the app locally
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-### Modifying the model
+## Running unit tests
 
--   Modify the schema to include additional DDSes
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
----
+## Running end-to-end tests
 
-## Using this repo
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-### Run the app locally
+## Further help
 
-To run our local server, Tinylicious, on the default values of `localhost:7070`, enter the following into a terminal window:
-
-```
-npx tinylicious
-```
-
-Now, with our local service running in the background, we need to connect the application to it. The app has already been configured to this so now we just need to run the following in a new terminal window to start the app.
-
-```bash
-npm i
-npm run start
-```
-
-## Modifying the model
-
-### Specify additional DDSes
-
-Inside of `src/app/app.component.ts`, you can define the `initialObjects` that are returned by the container in the `containerSchema`.
-
-To add another DDS to this list, make sure that the DDS is imported from `fluid-framework`, select a key, and add the DDS to `initialObjects`.
-
-```ts
-import { SharedMap, SharedCounter } from "fluid-framework";
-
-export const containerSchema = {
-    initialObjects: {
-        myMap: SharedMap,
-        myCounter: SharedCounter,
-    },
-};
-```
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
